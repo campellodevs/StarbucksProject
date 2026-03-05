@@ -278,14 +278,10 @@ footer .container {
 }
 
 /* ===== MEDIA QUERIES - APENAS PARA MOBILE ===== */
-/* Mantém todo o layout desktop inalterado, adapta apenas para telas pequenas */
-
-/* ===== MEDIA QUERIES - APENAS PARA MOBILE ===== */
-/* Mantém todo o layout desktop inalterado, adapta apenas para telas pequenas */
 
 @media (max-width: 768px) {
     
-    /* HEADER MOBILE - AJUSTES */
+    
     .header--area {
         height: auto;
         padding: 15px 20px;
@@ -293,7 +289,7 @@ footer .container {
     }
     
     .header--left img {
-        height: 45px; /* LEVEMENTE DIMINUÍDA */
+        height: 45px; 
         width: 45px;
     }
     
@@ -310,14 +306,14 @@ footer .container {
     
     .header--search input {
         max-width: 180px;
-        padding: 8px 35px 8px 12px; /* Aumentado padding-right para dar espaço à lupa */
+        padding: 8px 35px 8px 12px; 
         font-size: 15px;
         height: 38px;
     }
     
     .header--search button {
         position: absolute;
-        right: 5px; /* AJUSTADO posição da lupa */
+        right: 5px; 
         top: 50%;
         transform: translateY(-50%);
         margin: 0;
@@ -331,7 +327,7 @@ footer .container {
     }
     
     .header--search button img {
-        width: 18px; /* LUPA LEVEMENTE MAIOR */
+        width: 18px; 
         height: 18px;
     }
     
@@ -340,11 +336,11 @@ footer .container {
     }
     
     .header--menu img {
-        width: 22px; /* MENU HAMBURGUER DIMINUÍDO */
+        width: 22px; 
         height: 22px;
     }
     
-    /* BANNER MOBILE - TEXTO À ESQUERDA */
+   
     .banner {
         padding: 50px 0;
     }
@@ -354,21 +350,21 @@ footer .container {
     }
     
     .banner .container h1 {
-        font-size: 42px; /* DIMINUÍDO */
+        font-size: 42px; 
         line-height: 1.1;
-        text-align: left; /* ALINHADO À ESQUERDA */
+        text-align: left;
         margin-left: 0;
     }
     
     .banner .container span {
         display: block;
-        text-align: left; /* ALINHADO À ESQUERDA */
+        text-align: left; 
         font-size: 15px;
         max-width: 500px;
     }
     
     .banner--images {
-        justify-content: flex-start; /* IMAGENS TAMBÉM À ESQUERDA */
+        justify-content: flex-start; 
         flex-wrap: wrap;
         gap: 15px;
     }
@@ -379,8 +375,7 @@ footer .container {
         margin: 0;
     }
     
-    /* RESTO DO CÓDIGO MOBILE (MANTIDO IGUAL) */
-    /* ÁREA 1 MOBILE */
+    
     .area1 {
         grid-template-columns: 1fr;
     }
@@ -408,7 +403,7 @@ footer .container {
         padding: 30px;
     }
     
-    /* ÁREA 2 MOBILE */
+    
     .area2 {
         grid-template-columns: 1fr;
     }
@@ -435,7 +430,7 @@ footer .container {
         margin-bottom: 0;
     }
     
-    /* ÁREA 3 MOBILE */
+    
     .area3 {
         grid-template-columns: 1fr;
         min-height: auto;
@@ -443,45 +438,45 @@ footer .container {
     
     .area3--content {
         padding: 60px 30px;
-        text-align: left; /* TEXTO À ESQUERDA */
+        text-align: left; 
     }
     
     .area3--content .bar {
-        margin-left: 0; /* BARRA À ESQUERDA */
+        margin-left: 0; 
         margin-right: auto;
     }
     
     .area3--content h2 {
         font-size: 36px;
-        text-align: left; /* TÍTULO À ESQUERDA */
+        text-align: left; 
     }
     
     .area3--text {
         font-size: 16px;
         max-width: 100%;
-        text-align: left; /* TEXTO À ESQUERDA */
+        text-align: left; 
     }
     
     .area3 .button {
-        align-self: flex-start; /* BOTÃO À ESQUERDA */
+        align-self: flex-start; 
     }
     
     .area3--img1 {
         min-height: 400px;
     }
     
-    /* AJUSTES GERAIS MOBILE */
+   
     h2 {
         font-size: 28px;
         line-height: 1.2;
-        text-align: left; /* TÍTULOS À ESQUERDA */
+        text-align: left; 
     }
     
     .bar {
         width: 140px;
         height: 24px;
         margin-bottom: 15px;
-        margin-left: 0; /* BARRAS À ESQUERDA */
+        margin-left: 0; 
         margin-right: auto;
     }
     
@@ -497,7 +492,6 @@ footer .container {
     }
 }
 
-/* CELULARES PEQUENOS (até 480px) */
 @media (max-width: 480px) {
     
     .header--area {
@@ -508,7 +502,7 @@ footer .container {
     
     .header--right {
         width: 100%;
-        justify-content: space-between; /* MELHOR DISTRIBUIÇÃO */
+        justify-content: space-between; 
     }
     
     .header--search {
@@ -525,12 +519,12 @@ footer .container {
     }
     
     .header--menu img {
-        width: 20px; /* AINDA MENOR EM TELAS PEQUENAS */
+        width: 20px; 
         height: 20px;
     }
     
     .banner .container h1 {
-        font-size: 36px; /* AINDA MENOR */
+        font-size: 36px; 
     }
     
     .banner--images img {
@@ -573,7 +567,7 @@ footer .container {
     }
 }
 
-/* CELULARES MUITO PEQUENOS (até 360px) */
+
 @media (max-width: 360px) {
     
     .header--left img {
@@ -623,7 +617,7 @@ footer .container {
     }
 }
 
-/* AJUSTES DE TOQUE PARA MOBILE */
+
 @media (max-width: 768px) {
     .button,
     .header--menu img,
